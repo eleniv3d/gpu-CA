@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GPU Fluids.js</title>	
+	<style>
+		body {margin: 0; padding: 0; overflow: hidden}
+		.head {position: fixed; font-size: 25px}
+		.dg.main .close-button {
+    		background-color: rgb(255, 0, 255);
+ 		}
+		.ui { 
+			position : fixed;
+			display: inline-block;
+			margin: 0.5em 0.5em 0.5em 0.5em;
+			border-radius:0.12em;
+  			border: 0.1em solid #FFFFFF;
+  			color: white;
+			background: transparent; 
+  			padding: 0.35em 1.2em;
+  			text-align: center;
+  			box-sizing: border-box;
+			text-decoration:none;
+			font-family:'Roboto',sans-serif;
+			font-weight:300;
+			font-size: 0.9em;
+  			cursor: pointer;
+			 }
+		.links { 
+			position : fixed;
+			display: inline-block;
+			margin: 0.5em 0.5em 0.5em 0.5em;
+			border-radius:0.12em;
+  			border: 0.1em solid rgb(0, 0, 0);
+  		  	padding: 0.35em 1.2em;
+  			text-align: center;
+			width: 155px;
+			height: 56px;
+  			box-sizing: border-box;
+			text-decoration:none;
+			font-family:'Roboto',sans-serif;
+			font-weight:300;
+			font-size: 0.9em;
+  			cursor: pointer;
+			background-image:url("assets/textures/dbt_logo_with_text.png");
+			background-size: 100%;
+			outline: none;
+			}
+		.ui:hover {
+			color:#000000;
+			background-color: #FFFFFF;
+		}
+		.links:hover {
+			outline: none;
+			border: none;
+		}
+		.links:change {
+			outline: none;
+			border: none;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<script src="lib/gpu-browser.min.js"></script>
+	<script src="lib/stats.js"></script>
+	<script src="lib/dat.gui.js"></script>
+	<script src="lib/OrbitControls.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>
